@@ -15,3 +15,7 @@ const removeFalsyValues = (arr) => arr.filter(Boolean)
 console.log('removeFalsy: ', removeFalsyValues(array2))
 
 // 4. Flatten An Array
+let numbers = [1, 2, [3, 4], 5]
+console.log('numbersFlat: ', numbers.flat())
+let twoLevel = ['c++', [1, [2, 3]], 100]
+console.log('twoLevelFlat: ', twoLevel.flat(2))
