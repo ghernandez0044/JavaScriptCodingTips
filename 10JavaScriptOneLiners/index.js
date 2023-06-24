@@ -19,3 +19,9 @@ let numbers = [1, 2, [3, 4], 5]
 console.log('numbersFlat: ', numbers.flat())
 let twoLevel = ['c++', [1, [2, 3]], 100]
 console.log('twoLevelFlat: ', twoLevel.flat(2))
+
+// 5. Merging Multiple Arrays
+const a = [1, 2, 3]
+const b = [4, 5, 6]
+const c = [...a, ...b]
+console.log('mergedArray: ', c)
